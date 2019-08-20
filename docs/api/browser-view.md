@@ -11,7 +11,7 @@ relative to its owning window. It is meant to be an alternative to the
 
 ### Example
 
-```javascript
+```javascript fiddle='docs/fiddles/browser-view/new-window'
 // In the main process.
 const { BrowserView, BrowserWindow } = require('electron')
 
