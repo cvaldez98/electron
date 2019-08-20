@@ -39,7 +39,7 @@ While loading the page, the `ready-to-show` event will be emitted when the rende
 process has rendered the page for the first time if the window has not been shown yet. Showing
 the window after this event will have no visual flash:
 
-```javascript
+```javascript fiddle='docs/fiddles/browser-window/ready-to-show'
 const { BrowserWindow } = require('electron')
 let win = new BrowserWindow({ show: false })
 win.once('ready-to-show', () => {
